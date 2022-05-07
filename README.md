@@ -31,8 +31,8 @@ where:
 - `--demo`, `-d`: use in demo mode (cyclic rainbow)
 - `--interval INTERVAL`, `-i INTERVAL`: color update interval (secs)
 
-If `--demo` is not set, the script will capture the mean color at the border of the screen of the machine in which the
-script is being invoked, and set that color to the light strip at the provided fixed time interval.
+If `--demo` is not set, the script will capture the dominant screen color of the machine in which the script is being
+invoked, and set that color to the light strip at the provided fixed time interval.
 
 ## Method
 
